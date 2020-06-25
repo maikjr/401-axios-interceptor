@@ -17,7 +17,7 @@ return (<Layout
 - change the name of the route within the error function of the interceptors:
 ```
  if (error.response.status === 401) {
-    //chame uma função para deslogar o usuário aqui
+    //call a function to delete the token and user data here
     NavigationService.navigate('ROUTE_NAME_FOR_LOGIN');
   }
 ```
